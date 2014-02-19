@@ -1,0 +1,18 @@
+{
+    "name": "Reddit sidebar toggle",
+    "version": "0.0.2",
+    "manifest_version": 2,
+    "description": "Toggle the sidebar on reddit.",
+    "homepage_url": "http://absalon.is",
+    "permissions": [
+        "http://*.reddit.com/*"
+    ],
+    "content_scripts": [{
+        "matches": ["http://*.reddit.com/*"],
+        "js": ["main.js"],
+        "css": ["toggler.css"]
+    }],
+    "web_accessible_resources": [
+        "toggler.js"
+    ]
+}

@@ -1,0 +1,25 @@
+.absalon-sidebar-hider {
+    float: right;
+    /*margin-top: 50px;*/
+    width: 12px;
+    white-space: nowrap;
+
+    -webkit-transform: rotate(90deg);
+
+    -webkit-transform-origin: 50% 50%;
+
+    /* Should be unset in IE9+ I think. */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.absalon-sidebar-hider-container {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    padding-bottom: 65px;
+    padding-left: 2px;
+    padding-top: 5px;
+    background: #DFDADA;
+    border-radius: 5px;
+    z-index: 100;
+}
